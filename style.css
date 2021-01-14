@@ -35,6 +35,13 @@ body{
 #icon:hover{
     color: crimson;
 }
+.titel{
+    font-weight: 800;
+    font-family: 'Potta One', cursive;
+}
+span{
+    color: crimson;
+}
 /* navber style and banner */
 
 /* shoes style */
@@ -62,11 +69,11 @@ padding-top: 50px;
     color: black;
     background-color: white;
 }
-/* shoes style */
 #formal{
     border-radius: 20px;
     box-shadow: 2px 2px 10px black;
 }
+/* shoes and formal style */
 
 
 
@@ -81,15 +88,38 @@ padding-top: 50px;
     width: 90%;
     margin-left: 50px;
 }
+/* AboutUs */
 
-.form-intro{
+ /* feedback */
+
+ #Feedback{
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+    border-radius: 15px;
+ }
+ .hadding{
+    font-family: 'Potta One', cursive;
+ }
+ #item{
+     padding: 5% 15%;
+     text-align: center;
+ }
+ .clint-img{
+     width: 350px;
+     height: 300px;
+     border-radius: 50%;
+ }
+
+
+ /* feedback */
+
+ /* formSection */
+ .form-intro{
     font-family: 'Potta One', cursive;
 }
 .font{
     color: white;
     font-size: 15px;
     font-weight: 600;
-    
 }
 #form-bg{
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
@@ -113,3 +143,29 @@ padding-top: 50px;
     color: black;
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
+ /* formSection */
+
+ /* footer */
+ #follow-Us{
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+     height: 200px;
+ }
+ #follow-Us a{
+     padding: 10px;
+ }
+ #facebook{
+     color: blue;
+ }
+ #instagram{
+     color:purple;
+ }
+ #twitter{
+     color: lightskyblue;
+ }
+ #youtube{
+     color: red;
+ }
+ #github{
+     color: black;
+ }
+ /* footer */
